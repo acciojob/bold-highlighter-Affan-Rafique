@@ -5,7 +5,7 @@ function highlight() {
 		{
 	bold[i].addEventListener('mouseover',()=>
 		{
-			bold[i].style.color='green';
+			bold[i].style.color="rgb(0, 128, 0)";
 		});
 		}
 }
@@ -18,7 +18,7 @@ function return_normal() {
 		{
 			normal[i].addEventListener('mouseout',()=>
 				{
-					normal[i].style.color='black';
+					normal[i].style.color="rgb(0, 0, 0)";
 				});
 		}
 
